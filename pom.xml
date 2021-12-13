@@ -24,7 +24,7 @@
       <dependency>
         <groupId>org.jboss.redhat-fuse</groupId>
         <artifactId>fuse-springboot-bom</artifactId>
-        <version>7.8.0.fuse-sb2-780048-redhat-00001</version>
+        <version>7.9.0.fuse-sb2-790065-redhat-00001</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -105,7 +105,7 @@
       <plugin>
         <groupId>org.jboss.redhat-fuse</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-        <version>${fuse.version}</version>
+        <version>7.9.0.fuse-sb2-790065-redhat-00001</version>
         <executions>
           <execution>
             <goals>
